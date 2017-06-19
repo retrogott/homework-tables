@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Social Survey</title>
+</head>
+<body>
+    <hr>
+    <a href="index.html">
+        <b>Social Survey</b>
+    </a>
+    <a href="table.html">
+        <b>Table</b>
+    </a>
+    <a href="list.html">
+        <b>List</b>
+    </a>
+    <hr>
+    <br>
+    <h2>Customer Profile/Demographics</h2>
+    <p>
+        <u>Please take a couple of minutes to complete the following demographic survey.<br>These statistics are collected in aggregate and are anonymous.</u>
+    </p>
+    <br>
+    <form action="https://formspree.io/kiel835@gmail.com" method="POST">
+        <b>Gender:</b>
+        <br>
+        <input id="gender-male" type="radio" name="gender" value="Male" required>
+        <label for="gender-male">Male</label>
+        <br>
+        <input id="gender-female" type="radio" name="gender" value="Female" required>
+        <label for="gender-female">Female</label>
+        <hr>
+        <b>Age group:</b>
+        <br>
+        <input id="age-20younger" type="radio" name="age" value="20 and younger" required>
+        <label for="age-20younger">20 and younger</label>
+        <br>
+        <input id="age-2123" type="radio" name="age" value="21-23" required>
+        <label for="age-2123">21-23</label>
+        <br>
+        <input id="age-2430" type="radio" name="age" value="24-30" required>
+        <label for="age-2430">24-30</label>
+        <br>
+        <input id="age-3137" type="radio" name="age" value="31-37" required>
+        <label for="age-3137">31-37</label>
+        <br>
+        <input id="age-3845" type="radio" name="age" value="38-45" required>
+        <label for="age-3845">38-45</label>
+        <br>
+        <input id="age-4654" type="radio" name="age" value="46-54" required>
+        <label for="age-4654">46-54</label>
+        <br>
+        <input id="age-55above" type="radio" name="age" value="55 and older" required>
+        <label for="age-55above">55 and older</label>
+        <hr>
+        <b>Which of the following describes you best?</b>
+        <br>
+        <input id="student" type="radio" name="status" value="student" required>
+        <label for="student">Student</label>
+        <br>
+        <input id="employed" type="radio" name="status" value="employed" required>
+        <label for="employed">Employed</label>
+        <br>
+        <input id="homemaker" type="radio" name="status" value="homemaker" required>
+        <label for="homemaker">Homemaker</label>
+        <br>
+        <input id="retired" type="radio" name="status" value="retired" required>
+        <label for="retired">Retired</label>
+        <br>
+        <input id="volunteer" type="radio" name="status" value="volunteer" required>
+        <label for="volunteer">Volunteer</label>
+        <br>
+        <input id="notemployed" type="radio" name="status" value="not-employed" required>
+        <label for="notemployed">Not employed</label>
+        <br>
+        <input id="others" type="radio" name="status" value="other" required>
+        <label for="others">Other</label>
+        <hr>
+        <b>Please indicate the highest level of education completed:</b>
+        <br>
+        <input id="highschool" type="checkbox" name="education" value="high-scool-graduate">
+        <label for="highschool">High school graduate</label>
+        <br>
+        <input id="college" type="checkbox" name="education" value="college-graduate">
+        <label for="college">College graduate</label>
+        <br>
+        <input id="university" type="checkbox" name="education" value="university-graduate">
+        <label for="university">University graduate</label>
+        <hr>
+        <b>What is your annual combined household income?</b>
+        <br>
+        <input id="under30k" type="radio" name="household" value="under30k" required>
+        <label for="under30k">Under $30,000</label>
+        <br>
+        <input id="3039k" type="radio" name="household" value="30-39k" required>
+        <label for="3039k">$30,000 to $39,999</label>
+        <br>
+        <input id="4049k" type="radio" name="household" value="40-49k" required>
+        <label for="4049k">$40,000 to $49,999</label>
+        <br>
+        <input id="5079k" type="radio" name="household" value="50-79k" required>
+        <label for="5079k">$50,000 to $79,999</label>
+        <br>
+        <input id="8099k" type="radio" name="household" value="80-89k" required>
+        <label for="8099k">$80,000 to $99,999</label>
+        <br>
+        <input id="100149k" type="radio" name="household" value="100-149k" required>
+        <label for="100149k">$100,000 to $149,999</label>
+        <br>
+        <input id="150above" type="radio" name="household" value="150-and-above" required>
+        <label for="150above">$150,000 and up</label>
+        <hr>
+        <b>Family size:</b>
+        <br>
+        <input id="oneperson" type="radio" name="family-size" value="one-person" required>
+        <label for="oneperson">1 person</label>
+        <br>
+        <input id="twopeople" type="radio" name="family-size" value="two-people" required>
+        <label for="twopeople">2 people</label>
+        <br>
+        <input id="threepeople" type="radio" name="family-size" value="three-people" required>
+        <label for="threepeople">3 people</label>
+        <br>
+        <input id="fourandmore" type="radio" name="family-size" value="four-people-and-more" required>
+        <label for="fourandmore">4 people and more</label>
+        <hr>
+        <b>Ethnic group:</b>
+        <br>
+        <input id="european" type="radio" name="ethnic-group" value="european" required>
+        <label for="european">European</label>
+        <br>
+        <input id="afroamerican" type="radio" name="ethnic-group" value="afroamerican" required>
+        <label for="afroamerican">African-American</label>
+        <br>
+        <input id="asian" type="radio" name="ethnic-group" value="asian" required>
+        <label for="asian">Asian</label>
+        <br>
+        <input id="hispanic" type="radio" name="ethnic-group" value="hispanic" required>
+        <label for="hispanic">Hispanic</label>
+        <br>
+        <input id="nativeamerican" type="radio" name="ethnic-group" value="nativeamerican" required>
+        <label for="nativeamerican">Native American</label>
+        <br>
+        <input id="other" type="radio" name="ethnic-group" value="other" required>
+        <label for="other">Other</label>
+        <hr>
+        <label>
+                Where do you live ? (optional)<br>
+                <select name="where-live">
+                    <option value="Europe">Europe</option>
+                    <option value="Africa">Africa</option>
+                    <option value="Asia">Asia</option>
+                    <option value="Australia">Australia</option>
+                    <option value="North America">North America</option>
+                    <option value="South America">South America</option>
+                </select>
+            </label>
+        <hr>
+        <b>Type here about yourself a few words:</b>
+        <br>
+        <textarea name="about" rows="5" cols="70" required></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
